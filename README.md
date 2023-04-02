@@ -1,6 +1,7 @@
 Landing Page Assignment for The Odin Project
 
 Image Credits:
+
 Building U
 Photo by <a href="https://unsplash.com/@30daysreplay?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">30daysreplay</a> on <a href="https://unsplash.com/s/photos/dortmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
