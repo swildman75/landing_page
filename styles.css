@@ -8,6 +8,8 @@
 
 body {
   background-color: #fde100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 
 ul {
@@ -46,4 +48,33 @@ a {
 
 .header_link:hover {
   transform: scale(1.5);
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 8em 0;
+}
+
+.left_side_jumbo {
+  display: flex;
+  flex-direction: column;
+  max-width: 25em;
+}
+
+.sign_up_btn {
+  background-color: #000;
+  color: #fde100;
+  width: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-top: 8px;
+}
+
+.panoramic {
+  border-radius: 8px;
 }
