@@ -77,4 +77,71 @@ a {
 
 .panoramic {
   border-radius: 8px;
+  border: 5px solid #000;
+}
+
+.info_heading {
+  text-align: center;
+  font-family: Gruppo, sans-serif;
+  font-size: 2.5rem;
+}
+
+.images_section {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #000;
+  color: #fde100;
+}
+
+.images_section img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-top: 2em;
+  border: 3px solid #fde100;
+}
+
+.image_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5em;
+}
+
+.quote_section {
+  height: 60vh;
+  padding: 5em 20em;
+}
+
+.quote_section h2 {
+  font-style: italic;
+}
+
+.fa-quote-left,
+.fa-quote-right {
+  display: block;
+  font-size: 5rem;
+  opacity: 0.7;
+}
+
+.fa-quote-right {
+  text-align: right;
+}
+
+figcaption {
+  text-align: right;
+  padding-right: 10em;
+}
+
+figcaption::before,
+figcaption::after {
+  content: ' ';
+  width: 25px;
+  height: 2px;
+  margin: 0 10px;
+  background-color: #000;
+  display: inline-block;
+  vertical-align: middle;
 }
