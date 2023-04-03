@@ -145,3 +145,52 @@ figcaption::after {
   display: inline-block;
   vertical-align: middle;
 }
+
+.call_to_action {
+  height: 50vh;
+  background-color: #000;
+  color: #fde100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta_wrapper {
+  border: 3px solid #fde100;
+  max-height: 8em;
+  padding: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.newsletter_btn {
+  border: 2px solid #fde100;
+  background-color: #fde100;
+  color: #000;
+  max-width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 1.5rem;
+}
+
+.text_cta p {
+  max-width: 250px;
+}
+
+.text_cta h3 {
+  font-size: 2rem;
+  font-family: Gruppo, sans-serif;
+  margin-bottom: 0.5em;
+}
+
+.footer {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
